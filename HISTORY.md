@@ -347,3 +347,34 @@ Tests:       5 passed, 5 total
 **Коммит:** `feat: add Jest testing setup with Counter component tests`
 
 Теперь перед каждым коммитом нужно запускать `npm run test`.
+
+## Задача 11
+
+```
+Исправь ошибку: SassWarning: Deprecation Warning on line 0, column 8 of file:///D:/github/vibe-coding/app/globals.scss:0:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+```
+
+Ошибка исправлена!
+
+## Что было сделано:
+
+**`app/globals.scss`** — заменена устаревшая директива `@import` на современный синтаксис `@use`:
+
+```scss
+// Было (устарело)
+@import 'tailwindcss';
+
+// Стало (современный синтаксис)
+@use 'tailwindcss';
+```
+
+**Причина:** Dart Sass (версия SCSS) планирует удалить поддержку `@import` в версии 3.0.0. Новая директива `@use` обеспечивает:
+
+- Лучшую модульность
+- Избегает конфликтов имён
+- Более предсказуемое поведение
+
+**Коммит:** `fix: update SCSS syntax to use @use instead of @import`
+
+Предупреждение больше не должно появляться при компиляции стилей.
