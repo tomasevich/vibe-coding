@@ -1,6 +1,4 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import 'tailwindcss';
 
 :root {
   --foreground-rgb: 0, 0, 0;
@@ -25,11 +23,13 @@ body {
 }
 
 main {
-  @apply max-w-3xl mx-auto p-8;
+  max-width: 768px;
+  margin: 0 auto;
+  padding: 2rem;
 }
 
 a {
-  @apply underline;
+  text-decoration: underline;
 }
 
 html,
