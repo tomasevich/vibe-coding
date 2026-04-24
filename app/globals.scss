@@ -21,6 +21,11 @@ $heading-margin: 1rem;
 
 html,
 body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
   max-width: 100vw;
   overflow-x: hidden;
   font-family:
@@ -42,8 +47,8 @@ body {
 // Стили для основных элементов
 main {
   max-width: $max-content-width;
-  margin: 0 auto;
   padding: $section-padding;
+  text-align: center;
 }
 
 h1 {
