@@ -1,5 +1,6 @@
 /// <reference types="next" />
 /// <reference types="next/image-types/global" />
+import "./.next/dev/types/routes.d.ts";
 
-// NOTE: Этот файл автоматически генерируется.
-// Не редактируйте его вручную, так как изменения будут перезаписаны при изменении конфигурации.
+// NOTE: This file should not be edited
+// see https://nextjs.org/docs/app/api-reference/config/typescript for more information.
