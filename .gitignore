@@ -5,6 +5,7 @@ vibe-coding
 # сборка
 .next
 out
+coverage
 
 # логирование
 npm-debug.log*
