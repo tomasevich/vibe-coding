@@ -61,3 +61,9 @@
 ```
 Исправь ошибку:: CssSyntaxError: tailwindcss: D:\github\vibe-coding\app\globals.css:1:1: Cannot apply unknown utility class `max-w-3xl`. Are you using CSS modules or similar and missing `@reference`?
 ```
+
+## Команда 8
+
+```
+Замени файл @globals.css на scss и проведи рефакторинг/оптимизацию стилей
+```
