@@ -1,0 +1,14 @@
+# Зависимости
+node_modules
+
+# Сборка
+.next
+out
+dist
+
+# Логирование
+*.log
+
+# Git
+.git
+.gitignore

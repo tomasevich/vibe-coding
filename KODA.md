@@ -22,11 +22,18 @@ vibe-coding/
 │   │   └── Counter.module.scss  # Стили компонента
 │   ├── layout.tsx          # Корневой макет
 │   ├── page.tsx            # Главная страница
-│   └── globals.css         # Глобальные стили
+│   └── globals.scss        # Глобальные стили
+├── .vscode/                # Настройки VSCode
+│   ├── extensions.json     # Рекоменду расширения
+│   └── settings.json       # Настройки редактора
 ├── next.config.js          # Конфигурация NextJS
 ├── tsconfig.json           # Конфигурация TypeScript
+├── tailwind.config.js      # Конфигурация TailwindCSS
+├── postcss.config.js       # Конфигурация PostCSS
 ├── package.json            # Зависимости и скрипты
 ├── .gitignore              # Исключения Git
+├── .prettierrc             # Конфигурация Prettier
+├── .prettierignore         # Исключения для Prettier
 ├── next-env.d.ts           # Типы NextJS
 ├── KODA.md                 # Правила агента
 └── README.md               # Описание репозитория
@@ -70,6 +77,16 @@ npm start
 
 - Используем `TypeScript` строгую типизацию
 - Именование: `camelCase` для переменных, `PascalCase` для компонентов
+
+### Форматирование
+
+- **Prettier**: Используйте `prettier` для форматирования кода (настройки в `.prettierrc`)
+- **Полутолы**: Отсутствуют (`semi: false`)
+- **Кавычки**: Одинарные (`singleQuote: true`)
+- **Точка с запятой в стрелочных функциях**: Отсутствует (`arrowParens: avoid`)
+- **Максимальная длина строки**: 80 символов (`printWidth: 80`)
+- **Запятые в конце**: Отсутствуют (`trailingComma: none`)
+- **Отступ**: 2 пробела (`tabWidth: 2`)
 
 ### Стилизация
 
@@ -120,6 +137,7 @@ npm start
 
 | Дата       | Изменения                                   |
 | ---------- | ------------------------------------------- |
+| 2025-01-24 | Настроена конфигурация Prettier             |
 | 2025-01-24 | Добавлен TailwindCSS и SCSS                 |
 | 2025-01-24 | Рефакторинг стилей компонента (CSS Modules) |
 | 2025-01-24 | Добавлен компонент счетчика                 |
