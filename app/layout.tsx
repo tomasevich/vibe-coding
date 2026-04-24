@@ -3,11 +3,11 @@ import './globals.css'
 
 export const metadata: Metadata = {
   title: 'Vibe Coding',
-  description: 'Репозиторий для тестирования возможностей вайб кодинга',
+  description: 'Репозиторий для тестирования возможностей вайб кодинга'
 }
 
 export default function RootLayout({
-  children,
+  children
 }: {
   children: React.ReactNode
 }) {
