@@ -1,7 +1,7 @@
 'use client'
 
 import { useState } from 'react'
-import styles from './Counter.module.css'
+import styles from './Counter.module.scss'
 
 export default function Counter() {
   const [count, setCount] = useState<number>(0)
