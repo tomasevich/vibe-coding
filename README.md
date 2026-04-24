@@ -47,3 +47,17 @@
 2. Замени все файлы стилей
 3. Скорректируй документацию в части стилизации и структуры проекта
 ```
+
+## Команда 6
+
+> После запуска выдало ошибку, прошу агента исправить
+
+```
+Исправь ошибку: Error: It looks like you're trying to use `tailwindcss` directly as a PostCSS plugin. The PostCSS plugin has moved to a separate package, so to continue using Tailwind CSS with PostCSS you'll need to install `@tailwindcss/postcss` and update your PostCSS configuration
+```
+
+## Команда 7
+
+```
+Исправь ошибку:: CssSyntaxError: tailwindcss: D:\github\vibe-coding\app\globals.css:1:1: Cannot apply unknown utility class `max-w-3xl`. Are you using CSS modules or similar and missing `@reference`?
+```
